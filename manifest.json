@@ -1,0 +1,20 @@
+{
+  "name": "web blocker",
+  "version": "5.0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>",
+    "https://www.googleapis.com/",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}

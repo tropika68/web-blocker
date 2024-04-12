@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif; /* フォントの指定 */
+}
+
+.centered-text {
+  text-align: center;
+  font-size: 24px;
+}
+
+.textarea{
+    width: 400px;
+    padding: 5px 25px ;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  @media (max-width: 600px) {
+    input[type="url"],
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+
+  .button {
+    background-color: #4CAF50; /* ボタンの背景色 */
+    border: none; /* ボーダーをなしに設定 */
+    color: white; /* 文字の色 */
+    padding: 15px 32px; /* ボタンの内側の余白 */
+    text-align: center; /* テキストを中央揃え */
+    text-decoration: none; /* テキスト装飾なし */
+    display: inline-block; /* インラインブロック要素として表示 */
+    font-size: 16px; /* 文字サイズ */
+    margin: 4px 2px; /* ボタン間のマージン */
+    cursor: pointer; /* カーソルをポインターに設定 */
+    border-radius: 10px; /* 角丸 */
+    transition-duration: 0.4s; /* 変化の速さを設定 */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* 影の設定 */
+}
+
+.button:hover {
+    background-color: #45a049; /* ホバー時の背景色 */
+}
+
+
+
+  
