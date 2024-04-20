@@ -54,7 +54,10 @@ var blockedUrls = [
     "*://poki.com/jp/*",
     "https://www.gifu-np.co.jp/feature/games",
     "https://www.youtube.com/",
-    "https://scratch.mit.edu/"
+    "https://scratch.mit.edu/",
+    "https://rugugu.jp/",
+    "https://rugugu.jp/black/",
+    "https://googlefeud.com/",
 ];
 
 
