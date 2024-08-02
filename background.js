@@ -31,7 +31,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
 // URLに含まれる特定の文字列を置き換える関数
 function replaceStringInUrl(url) {
     // 置き換えたい文字列とその置き換える文字列を定義
-    var searchStrings = ["game", "ゲーム","poki","gaming","freem","scratch","youtube"];
+    var searchStrings = ["game", "ゲーム","poki","gaming","freem","scratch","youtube","shogi"];
     var replaceString = "https://townwork.net/magazine/skill/128819/";
 
     // URLに特定の文字列が含まれているかチェックし、含まれていた場合に置き換える
@@ -58,6 +58,8 @@ var blockedUrls = [
     "https://rugugu.jp/",
     "https://rugugu.jp/black/",
     "https://googlefeud.com/",
+    "https://www.studiok-i.net/",
+    "https://www.studiok-i.net/ps/"
 ];
 
 
